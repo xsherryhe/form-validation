@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script defer src="./scripts/validation.js"></script>
+  <link rel="stylesheet" href="./styles/style.css">
+  <title>Document</title>
+</head>
+<body>
+  <form novalidate action="">
+    <div class="field">
+      <label for="email">Email:</label>
+      <input type="text" id="email" name="email">
+      <div class="error hidden"></div>
+    </div>
+    <div class="field">
+      <label for="country">Country:</label>
+      <input type="text" name="country" id="country">
+      <div class="error hidden"></div>
+    </div>
+    <div class="field">
+      <label for="zip-code">Zip Code:</label>
+      <input type="text" name="zip-code" id="zip-code">
+      <div class="error hidden"></div>
+    </div>
+    <div class="field">
+      <label for="password">Password:</label>
+      <input type="password" name="password" id="password">
+      <div class="error hidden"></div>
+    </div>
+    <div class="field">
+      <label for="password-confirm">Password Confirmation:</label>
+      <input type="password" name="password-confirm" id="password-confirm">
+      <div class="error hidden"></div>
+    </div>
+    <button type="submit" class="submit">Submit</button>
+  </form>
+</body>
+</html>
